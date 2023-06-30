@@ -1,7 +1,7 @@
 {
   "name": "@nya4om/bottom-sheet",
   "private": false,
-  "version": "1.0.1",
+  "version": "1.0.3",
   "type": "module",
   "files": ["dist"],
   "main": "./dist/bottom-sheet.umd.cjs",
@@ -30,10 +30,17 @@
     "vue": "^3.2.47",
     "vue-tsc": "^1.4.2"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/menisen/bottom-sheet.git"
+  },
+  "author": "menisen",
+  "license": "MIT",
   "keywords": [
     "vue",
     "vuejs",
     "component",
     "bottom-sheet"
-  ]
+  ],
+  "homepage": "https://github.com/menisen/bottom-sheet#readme"
 }

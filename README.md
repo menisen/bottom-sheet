@@ -1,18 +1,9 @@
-[Example](https://anyprinter.ru/logo.jpg)
 
 # Bottom Sheet on Vue
 
-[//]: # (![Size]&#40;https://img.shields.io/bundlephobia/minzip/@webzlodimir/vue-bottom-sheet&#41;)
+A nice clean and touch-friendly bottom sheet component without library based on [Vue.js] 3 (https://vuejs.org/)
 
-[//]: # (![Downloads]&#40;https://img.shields.io/npm/dt/@webzlodimir/vue-bottom-sheet&#41;)
-
-[//]: # (![Version]&#40;https://img.shields.io/npm/v/@webzlodimir/vue-bottom-sheet&#41;)
-
-A nice clean and touch-friendly bottom sheet component based on [Vue.js] 3 (https://vuejs.org/)
-
-[//]: # (- :clapper: [Demo]&#40;https://vaban-ru.github.io/vue-bottom-sheet-demo/&#41;)
-
-[//]: # (- :open_book: [Документация на русском]&#40;https://github.com/vaban-ru/vue-bottom-sheet/blob/master/README_RU.MD&#41;)
+- :clapper: [Demo](https://bottom-sheet.neppe.kz/)
 
 ## Installation
 
@@ -81,4 +72,4 @@ Vue.use(BottomSheet);
 | opened  | Fire when card component is opened  | @opened="" |
 | closed  | Fire when card component is closed  | @closed="" |
 
-[//]: # (You can see all the effects on the [demo page]&#40;https://vaban-ru.github.io/vue-bottom-sheet-demo/&#41;)
+You can see all the effects on the [demo page](https://bottom-sheet.neppe.kz/)
