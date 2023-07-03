@@ -93,14 +93,14 @@ export default {
         this.sheetContents.classList.remove("fullscreen")
       }
     },
-    openModal() {
+    open() {
       this.setSheetHeight(this.contentHeight)
       this.setIsSheetShown(true)
       if (!this.backgroundScrollable) {
         document.body.style.overflow = 'hidden'
       }
     },
-    closeModal() {
+    close() {
       this.setIsSheetShown(false)
       this.$emit('closed')
       document.body.style.overflow = 'auto'

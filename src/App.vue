@@ -215,10 +215,10 @@ export default {
   },
   methods: {
     open() {
-      this.$refs.myBottomSheet.openModal()
+      this.$refs.myBottomSheet.open()
     },
     close() {
-      this.$refs.myBottomSheet.closeModal()
+      this.$refs.myBottomSheet.close()
     }
   },
 }
