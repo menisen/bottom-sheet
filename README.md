@@ -29,6 +29,7 @@ A nice clean and touch-friendly bottom sheet component without library based on 
 </template>
 <script>
 import  BottomSheet from "@nya4om/bottom-sheet";
+import "@nya4om/bottom-sheet/style.css"
 export default {
   components: {
     BottomSheet
@@ -48,6 +49,7 @@ export default {
 Or add to main.js for use throughout the project
 ```js
 import BottomSheet from "@nya4om/bottom-sheet";
+import "@nya4om/bottom-sheet/style.css"
 import Vue from "vue";
 
 Vue.use(BottomSheet);
