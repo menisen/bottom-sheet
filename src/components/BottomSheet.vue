@@ -38,7 +38,7 @@
 </template>
 
 <script setup lang="ts">
-import { ref, onMounted } from "vue";
+import { ref, onMounted, beforeUnmount } from "vue";
 
 export interface IProps {
   overlay?: boolean;
@@ -184,6 +184,15 @@ onMounted(() => {
 
   window.addEventListener("mouseup", onDragEnd);
   window.addEventListener("touchend", onDragEnd);
+})
+
+beforeUnmount(() => {
+  document.body.style.overflow = "auto";
+  window.removeEventListener("mousemove", onDragMove);
+  window.removeEventListener("touchmove", onDragMove);
+
+  window.removeEventListener("mouseup", onDragEnd);
+  window.removeEventListener("touchend", onDragEnd);
 })
 
 defineExpose({ open, close });
